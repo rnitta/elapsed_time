@@ -1,0 +1,16 @@
+name: elapsed_time
+description: easily generate human-readable elaped time.
+author: rnitta <attinyes@gmail.com>
+homepage: https://github.com/rnitta/elapsed_time
+
+version: 0.0.1+0
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  meta: ^1.0.0
+  intl: ^0.15.7
+
+dev_dependencies:
+  test: ^1.5.3
