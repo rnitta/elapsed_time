@@ -7,7 +7,7 @@ Dart package to convert 2 Datetimes to human-friendly formatted string.
 # pubspec.yaml
 
 dependencies:
-  elapsed_time: ^1.0.0
+  elapsed_time: ^0.0.1
 
 ```
 
