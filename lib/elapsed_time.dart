@@ -30,8 +30,19 @@ class ElapsedTime {
     }
   }
 
+  String fromAtWithParse({@required String from, @required String at}) {
+    final fromParsed = DateTime.parse(from); // will throw FormatException if parsing failed
+    final atParsed = DateTime.parse(at); // will throw FormatException if parsing failed
+    return fromAt(from: fromParsed, at: atParsed);
+  }
+
   String fromNow({@required DateTime at}){
     return fromAt(from: DateTime.now(), at: at);
+  }
+
+  String fromNowWithParse({@required String at}){
+    final atParsed = DateTime.parse(at); // will throw FormatException if parsing failed
+    return fromAt(from: DateTime.now(), at: atParsed);
   }
 }
 

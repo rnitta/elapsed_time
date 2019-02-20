@@ -3,7 +3,7 @@ description: easily generate human-readable elaped time.
 author: rnitta <attinyes@gmail.com>
 homepage: https://github.com/rnitta/elapsed_time
 
-version: 0.0.1+1
+version: 0.0.1+2
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
